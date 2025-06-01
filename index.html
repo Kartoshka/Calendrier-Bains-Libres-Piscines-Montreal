@@ -41,44 +41,77 @@
 <body>
     <h1>Swim Sessions Calendar</h1>
 
-    <div id="filter">
-        <h3>Filter by Audience</h3>
-        <div id="audienceFilters"></div>
+    <!-- Filter Container -->
+    <div id="filters"
+        style="justify-content: center; display: flex; gap: 30px; margin-bottom: 20px; align-items: flex-start; flex-wrap: wrap;">
 
-        <h3>Filter by Pool Name</h3>
-        <div id="locationFilters"></div>
+        <!-- Audience Filters -->
+        <div id="audience-filters-container">
+            <h4>Filter by Audience</h4>
+            <div id="audience-filters" style="display: flex; flex-wrap: wrap; gap: 10px;"></div>
+        </div>
+
+        <!-- Location Filters -->
+        <div id="location-filters-container">
+            <h4>Filter by Pool</h4>
+            <div id="location-filters" style="display: flex; flex-wrap: wrap; gap: 10px;"></div>
+        </div>
     </div>
+
 
     <div id="calendar"></div>
 
     <script>
+
         let allEvents = [];
         let calendar;
+
+        function normalizeAudience(audience) {
+            const lower = audience.toLowerCase();
+
+            if (lower.includes('adultes')) {
+                return 'Adultes (16ans+)';
+            }
+            else if (lower.includes('tous')) {
+                return 'Tous';
+            }
+            else if (lower.includes('enfants')) {
+                return "Enfants (8ans-)";
+            }
+            else if (lower.includes('filles') || lower.includes('femmes')) {
+                return "Filles & Femmes Seulement";
+            }
+            else if (lower.includes('aînées')) {
+                return "Aînées (50+)"
+            }
+            return audience; // Leave all others unchanged for now
+        }
 
         function extractAudienceTypes(data) {
             const audienceSet = new Set();
             data.forEach(loc => {
-                loc.sessions.forEach(session => audienceSet.add(session.audience));
+                loc.sessions.forEach(session => audienceSet.add(normalizeAudience(session.audience)));
             });
             return Array.from(audienceSet).sort();
         }
 
-        function createCheckbox(idPrefix, values, containerId, onChange) {
+        function createCheckboxes(containerId, options, onChangeCallback) {
             const container = document.getElementById(containerId);
-            container.innerHTML = ''; // Clear any existing content
-            values.forEach(value => {
+            container.innerHTML = '';
+
+            options.forEach(option => {
+                const label = document.createElement('label');
+                label.style.marginRight = '10px';
+                label.style.whiteSpace = 'nowrap';
+
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
-                checkbox.id = `${idPrefix}-${value}`;
-                checkbox.value = value;
+                checkbox.value = option;
                 checkbox.checked = false;
-                checkbox.addEventListener('change', onChange);
+                checkbox.addEventListener('change', onChangeCallback);
 
-                const label = document.createElement('label');
-                label.htmlFor = checkbox.id;
-                label.textContent = value;
-
-                container.appendChild(checkbox);
+                label.appendChild(checkbox);
+                label.append(` ${option}`);
                 container.appendChild(label);
             });
         }
@@ -90,8 +123,8 @@
         }
 
         function applyFilters() {
-            const selectedAudiences = getCheckedValues('audienceFilters');
-            const selectedLocations = getCheckedValues('locationFilters');
+            const selectedAudiences = getCheckedValues('audience-filters');
+            const selectedLocations = getCheckedValues('location-filters');
 
             const audienceFilterActive = selectedAudiences.length > 0;
             const locationFilterActive = selectedLocations.length > 0;
@@ -114,6 +147,7 @@
                 // Combine all JSON data into one array
                 fullData = results.flat();
                 console.log(fullData);
+
                 // Populate the calendar
                 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 const dayMap = {
@@ -125,6 +159,7 @@
                     'Samedi': 'Saturday',
                     'Dimanche': 'Sunday'
                 };
+
                 allEvents = fullData.flatMap(location => {
                     // Clean pool name by removing " | Ville de Montréal"
                     const cleanTitle = location.title.replace(' | Ville de Montréal', '').trim();
@@ -149,12 +184,13 @@
                         const endDateTime = new Date(sessionDate);
                         endDateTime.setHours(endHour, endMinute, 0, 0);
 
+                        const audienceNormalized = normalizeAudience(session.audience);
                         return {
-                            title: `${cleanTitle} — ${session.audience}`,
+                            title: `${cleanTitle} — ${audienceNormalized}`,
                             start: startDateTime.toISOString(),
                             end: endDateTime.toISOString(),
                             extendedProps: {
-                                audience: session.audience,
+                                audience: audienceNormalized,
                                 location: cleanTitle,
                                 url: location.url
                             },
@@ -198,8 +234,8 @@
                 const audiences = extractAudienceTypes(fullData);
                 const locations = Array.from(new Set(fullData.map(loc => loc.title.replace(' | Ville de Montréal', '').trim()))).sort();
 
-                createCheckbox('aud', audiences, 'audienceFilters', applyFilters);
-                createCheckbox('loc', locations, 'locationFilters', applyFilters);
+                createCheckboxes('audience-filters', audiences, applyFilters);
+                createCheckboxes('location-filters', locations, applyFilters);
             });
     </script>
 </body>
