@@ -66,6 +66,16 @@
         let allEvents = [];
         let calendar;
 
+        function setCookie(name, value, days = 30) {
+            const expires = new Date(Date.now() + days * 86400000).toUTCString();
+            document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/`;
+        }
+
+        function getCookie(name) {
+            const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+            return match ? decodeURIComponent(match[2]) : null;
+        }
+
         function normalizeAudience(audience) {
             const lower = audience.toLowerCase();
 
@@ -93,6 +103,21 @@
                 loc.sessions.forEach(session => audienceSet.add(normalizeAudience(session.audience)));
             });
             return Array.from(audienceSet).sort();
+        }
+
+        function restoreSelections(containerId, cookieName) {
+            const saved = getCookie(cookieName);
+            if (!saved) return;
+
+            try {
+                const selectedValues = JSON.parse(saved);
+                selectedValues.forEach(value => {
+                    const checkbox = document.querySelector(`#${containerId} input[type="checkbox"][value="${value}"]`);
+                    if (checkbox) checkbox.checked = true;
+                });
+            } catch (e) {
+                console.warn('Invalid cookie JSON for', cookieName);
+            }
         }
 
         function createCheckboxes(containerId, options, onChangeCallback) {
@@ -138,6 +163,18 @@
 
             calendar.removeAllEvents();
             calendar.addEventSource(filtered);
+
+            // Save to cookies
+            const audienceSelections = Array.from(document.querySelectorAll('#audience-filters input[type="checkbox"]'))
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+
+            const locationSelections = Array.from(document.querySelectorAll('#location-filters input[type="checkbox"]'))
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+
+            setCookie('audienceSelections', JSON.stringify(audienceSelections));
+            setCookie('locationSelections', JSON.stringify(locationSelections));
         }
 
         const jsonFiles = ['swim_sessions_auto.json', 'swim_sessions_manual.json'];
@@ -236,6 +273,11 @@
 
                 createCheckboxes('audience-filters', audiences, applyFilters);
                 createCheckboxes('location-filters', locations, applyFilters);
+
+                // Restore saved selection from cookies
+                restoreSelections('audience-filters', 'audienceSelections');
+                restoreSelections('location-filters', 'locationSelections');
+                applyFilters();
             });
     </script>
 </body>
