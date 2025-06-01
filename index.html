@@ -71,7 +71,7 @@
                 checkbox.type = 'checkbox';
                 checkbox.id = `${idPrefix}-${value}`;
                 checkbox.value = value;
-                checkbox.checked = true;
+                checkbox.checked = false;
                 checkbox.addEventListener('change', onChange);
 
                 const label = document.createElement('label');
@@ -93,7 +93,6 @@
             const selectedAudiences = getCheckedValues('audienceFilters');
             const selectedLocations = getCheckedValues('locationFilters');
 
-            console.log('change');
             const audienceFilterActive = selectedAudiences.length > 0;
             const locationFilterActive = selectedLocations.length > 0;
 
@@ -108,17 +107,30 @@
             calendar.addEventSource(filtered);
         }
 
-        fetch('swim_sessions.json')
-            .then(response => response.json())
-            .then(fullData => {
+        const jsonFiles = ['swim_sessions_auto.json', 'swim_sessions_manual.json'];
+        let allSessions = [];
+        Promise.all(jsonFiles.map(file => fetch(file).then(res => res.json())))
+            .then(results => {
+                // Combine all JSON data into one array
+                fullData = results.flat();
+                console.log(fullData);
+                // Populate the calendar
                 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
+                const dayMap = {
+                    'Lundi': 'Monday',
+                    'Mardi': 'Tuesday',
+                    'Mercredi': 'Wednesday',
+                    'Jeudi': 'Thursday',
+                    'Vendredi': 'Friday',
+                    'Samedi': 'Saturday',
+                    'Dimanche': 'Sunday'
+                };
                 allEvents = fullData.flatMap(location => {
                     // Clean pool name by removing " | Ville de Montréal"
                     const cleanTitle = location.title.replace(' | Ville de Montréal', '').trim();
 
                     return location.sessions.map(session => {
-                        const dayIndex = daysOfWeek.indexOf(session.day);
+                        const dayIndex = daysOfWeek.indexOf(dayMap[session.day] || session.day);
                         if (dayIndex < 0) return null;
 
                         const today = new Date();
@@ -188,9 +200,6 @@
 
                 createCheckbox('aud', audiences, 'audienceFilters', applyFilters);
                 createCheckbox('loc', locations, 'locationFilters', applyFilters);
-            })
-            .catch(error => {
-                console.error("Failed to load JSON:", error);
             });
     </script>
 </body>

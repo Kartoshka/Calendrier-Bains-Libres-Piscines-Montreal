@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://patrovilleray.ca/programmation-des-activites/",
+    "title": "Piscine Patro Villeray",
+    "address": "7355 Av. Christophe Colomb #1-R, Montreal, Quebec H2R 0A6",
+    "sessions": [
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Lundi",
+        "start": "11:00",
+        "end": "11:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Lundi",
+        "start": "16:00",
+        "end": "16:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Mardi",
+        "start": "16:00",
+        "end": "16:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Adultes",
+        "day": "Mercredi",
+        "start": "8:00",
+        "end": "8:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Mercredi",
+        "start": "16:00",
+        "end": "16:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Jeudi",
+        "start": "11:00",
+        "end": "11:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Jeudi",
+        "start": "16:00",
+        "end": "16:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Vendredi",
+        "start": "16:00",
+        "end": "16:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Samedi",
+        "start": "15:00",
+        "end": "16:50"
+      },
+      {
+        "location": "Piscine Villeray",
+        "audience": "Tous",
+        "day": "Dimanche",
+        "start": "15:00",
+        "end": "16:50"
+      }
+    ]
+  }
+]

@@ -79,7 +79,7 @@ const puppeteer = require('puppeteer');
                                 if (startTime && endTime) {
                                     sessions.push({
                                         audience,
-                                        day: dayMap[dayFr] || dayFr,
+                                        day: dayFr,
                                         start: `${String(startTime.hours).padStart(2, '0')}:${String(startTime.minutes).padStart(2, '0')}`,
                                         end: `${String(endTime.hours).padStart(2, '0')}:${String(endTime.minutes).padStart(2, '0')}`
                                     });
@@ -114,8 +114,8 @@ const puppeteer = require('puppeteer');
     }
 
     const fs = require('fs');
-    fs.writeFileSync('swim_sessions.json', JSON.stringify(allResults, null, 2));
-    console.log('✅ Swim sessions saved to swim_sessions.json');
+    fs.writeFileSync('swim_sessions_auto.json', JSON.stringify(allResults, null, 2));
+    console.log('✅ Swim sessions saved to swim_sessions_auto.json');
 
     await browser.close();
 })();
