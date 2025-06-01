@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Swim Sessions Calendar</title>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        #calendar {
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        #filter {
+            max-width: 900px;
+            margin: 0 auto 30px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+
+        #filter h3 {
+            margin-bottom: 8px;
+        }
+
+        #filter label {
+            margin-right: 15px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Swim Sessions Calendar</h1>
+
+    <div id="filter">
+        <h3>Filter by Audience</h3>
+        <div id="audienceFilters"></div>
+
+        <h3>Filter by Pool Name</h3>
+        <div id="locationFilters"></div>
+    </div>
+
+    <div id="calendar"></div>
+
+    <script>
+        let allEvents = [];
+        let calendar;
+
+        function extractAudienceTypes(data) {
+            const audienceSet = new Set();
+            data.forEach(loc => {
+                loc.sessions.forEach(session => audienceSet.add(session.audience));
+            });
+            return Array.from(audienceSet).sort();
+        }
+
+        function createCheckbox(idPrefix, values, containerId, onChange) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = ''; // Clear any existing content
+            values.forEach(value => {
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `${idPrefix}-${value}`;
+                checkbox.value = value;
+                checkbox.checked = true;
+                checkbox.addEventListener('change', onChange);
+
+                const label = document.createElement('label');
+                label.htmlFor = checkbox.id;
+                label.textContent = value;
+
+                container.appendChild(checkbox);
+                container.appendChild(label);
+            });
+        }
+
+        function getCheckedValues(containerId) {
+            return Array.from(document.getElementById(containerId).querySelectorAll('input[type=checkbox]'))
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+        }
+
+        function applyFilters() {
+            const selectedAudiences = getCheckedValues('audienceFilters');
+            const selectedLocations = getCheckedValues('locationFilters');
+
+            console.log('change');
+            const audienceFilterActive = selectedAudiences.length > 0;
+            const locationFilterActive = selectedLocations.length > 0;
+
+            const filtered = allEvents.filter(e => {
+                const audienceMatch = audienceFilterActive ? selectedAudiences.includes(e.extendedProps.audience) : true;
+                const locationMatch = locationFilterActive ? selectedLocations.includes(e.extendedProps.location) : true;
+                return audienceMatch && locationMatch;
+            });
+
+
+            calendar.removeAllEvents();
+            calendar.addEventSource(filtered);
+        }
+
+        fetch('swim_sessions.json')
+            .then(response => response.json())
+            .then(fullData => {
+                const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+                allEvents = fullData.flatMap(location => {
+                    // Clean pool name by removing " | Ville de Montréal"
+                    const cleanTitle = location.title.replace(' | Ville de Montréal', '').trim();
+
+                    return location.sessions.map(session => {
+                        const dayIndex = daysOfWeek.indexOf(session.day);
+                        if (dayIndex < 0) return null;
+
+                        const today = new Date();
+                        const todayIndex = today.getDay();
+                        let diff = dayIndex - todayIndex;
+                        if (diff < 0) diff += 7;
+                        const sessionDate = new Date(today);
+                        sessionDate.setDate(today.getDate() + diff);
+
+                        const [startHour, startMinute] = session.start.split(":").map(Number);
+                        const [endHour, endMinute] = session.end.split(":").map(Number);
+
+                        const startDateTime = new Date(sessionDate);
+                        startDateTime.setHours(startHour, startMinute, 0, 0);
+
+                        const endDateTime = new Date(sessionDate);
+                        endDateTime.setHours(endHour, endMinute, 0, 0);
+
+                        return {
+                            title: `${cleanTitle} — ${session.audience}`,
+                            start: startDateTime.toISOString(),
+                            end: endDateTime.toISOString(),
+                            extendedProps: {
+                                audience: session.audience,
+                                location: cleanTitle,
+                                url: location.url
+                            },
+                            allDay: false
+                        };
+                    });
+                }).filter(Boolean);
+
+                // Find min and max time
+                const startTimes = allEvents.map(e => new Date(e.start).getHours());
+                const endTimes = allEvents.map(e => new Date(e.end).getHours());
+
+                const minHour = Math.min(...startTimes);
+                const maxHour = Math.max(...endTimes) + 1; // +1 to give some padding
+
+                // Format to "HH:00:00"
+                const minTime = `${String(minHour).padStart(2, '0')}:00:00`;
+                const maxTime = `${String(maxHour).padStart(2, '0')}:00:00`;
+
+                const calendarEl = document.getElementById('calendar');
+                calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'timeGridWeek',
+                    headerToolbar: {
+                        left: 'prev,next today',
+                        center: 'title',
+                        right: 'timeGridWeek,timeGridDay,listWeek'
+                    },
+                    nowIndicator: true,
+                    events: allEvents,
+                    minTime: minTime,
+                    maxTime: maxTime,
+                    scrollTime: minTime,
+                    eventClick: function (info) {
+                        const e = info.event;
+                        alert(`Event: ${e.title}\nAudience: ${e.extendedProps.audience}\nPool: ${e.extendedProps.location}\nURL: ${e.extendedProps.url}`);
+                    }
+                });
+
+                calendar.render();
+
+                const audiences = extractAudienceTypes(fullData);
+                const locations = Array.from(new Set(fullData.map(loc => loc.title.replace(' | Ville de Montréal', '').trim()))).sort();
+
+                createCheckbox('aud', audiences, 'audienceFilters', applyFilters);
+                createCheckbox('loc', locations, 'locationFilters', applyFilters);
+            })
+            .catch(error => {
+                console.error("Failed to load JSON:", error);
+            });
+    </script>
+</body>
+
+</html>

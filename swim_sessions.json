@@ -1,0 +1,522 @@
+[
+  {
+    "url": "https://montreal.ca/lieux/piscine-saint-roch",
+    "title": "Piscine Saint-Roch",
+    "address": "400, avenue BallMontréal (Québec) H3N 1H6",
+    "sessions": [
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Monday",
+        "start": "18:30",
+        "end": "19:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Tuesday",
+        "start": "15:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Thursday",
+        "start": "15:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Friday",
+        "start": "17:00",
+        "end": "19:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Saturday",
+        "start": "15:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Sunday",
+        "start": "14:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Monday",
+        "start": "20:00",
+        "end": "21:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Wednesday",
+        "start": "07:00",
+        "end": "09:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Friday",
+        "start": "20:00",
+        "end": "20:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Sunday",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les filles et les femmes",
+        "day": "Saturday",
+        "start": "14:00",
+        "end": "14:55"
+      }
+    ]
+  },
+  {
+    "url": "https://montreal.ca/lieux/piscine-joseph-charbonneau",
+    "title": "Piscine Joseph-Charbonneau",
+    "address": "8200, rue RousselotMontréal (Québec) H2E 1Z6",
+    "sessions": [
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Tuesday",
+        "start": "16:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Wednesday",
+        "start": "15:00",
+        "end": "17:25"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Thursday",
+        "start": "16:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Saturday",
+        "start": "14:30",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Monday",
+        "start": "13:00",
+        "end": "16:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Tuesday",
+        "start": "13:00",
+        "end": "15:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Wednesday",
+        "start": "15:00",
+        "end": "17:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Thursday",
+        "start": "13:00",
+        "end": "15:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Friday",
+        "start": "15:00",
+        "end": "18:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Saturday",
+        "start": "14:30",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Tuesday",
+        "start": "16:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Wednesday",
+        "start": "15:00",
+        "end": "17:25"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Thursday",
+        "start": "16:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Saturday",
+        "start": "14:30",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Tuesday",
+        "start": "18:00",
+        "end": "18:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Wednesday",
+        "start": "14:00",
+        "end": "14:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Thursday",
+        "start": "18:00",
+        "end": "18:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Saturday",
+        "start": "17:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Monday",
+        "start": "16:00",
+        "end": "17:30"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Tuesday",
+        "start": "18:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Wednesday",
+        "start": "17:30",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Thursday",
+        "start": "18:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Friday",
+        "start": "18:30",
+        "end": "20:00"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Saturday",
+        "start": "17:00",
+        "end": "18:00"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Tuesday",
+        "start": "18:00",
+        "end": "18:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Wednesday",
+        "start": "14:00",
+        "end": "14:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Thursday",
+        "start": "18:00",
+        "end": "18:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Saturday",
+        "start": "17:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour les personnes aînées (50 ans et plus)",
+        "day": "Tuesday",
+        "start": "15:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour les personnes aînées (50 ans et plus)",
+        "day": "Thursday",
+        "start": "15:00",
+        "end": "15:55"
+      }
+    ]
+  },
+  {
+    "url": "https://montreal.ca/lieux/piscine-pere-marquette",
+    "title": "Piscine Père-Marquette",
+    "address": "1600, rue de DrucourtMontréal (Québec) H2G 1N6",
+    "sessions": [
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Monday",
+        "start": "19:30",
+        "end": "20:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Wednesday",
+        "start": "19:30",
+        "end": "20:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Thursday",
+        "start": "19:30",
+        "end": "20:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Friday",
+        "start": "19:30",
+        "end": "20:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Saturday",
+        "start": "13:30",
+        "end": "15:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Sunday",
+        "start": "13:30",
+        "end": "15:30"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Monday",
+        "start": "15:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Tuesday",
+        "start": "15:00",
+        "end": "16:30"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Wednesday",
+        "start": "15:00",
+        "end": "16:30"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Thursday",
+        "start": "15:00",
+        "end": "16:30"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Friday",
+        "start": "15:00",
+        "end": "16:30"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Saturday",
+        "start": "15:30",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Sunday",
+        "start": "15:30",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour les enfants (8 ans et moins)",
+        "day": "Monday",
+        "start": "10:00",
+        "end": "12:00"
+      },
+      {
+        "audience": "Pour les enfants (8 ans et moins)",
+        "day": "Tuesday",
+        "start": "10:00",
+        "end": "12:00"
+      },
+      {
+        "audience": "Pour les enfants (8 ans et moins)",
+        "day": "Wednesday",
+        "start": "10:00",
+        "end": "12:00"
+      },
+      {
+        "audience": "Pour les enfants (8 ans et moins)",
+        "day": "Thursday",
+        "start": "10:00",
+        "end": "12:00"
+      },
+      {
+        "audience": "Pour les enfants (8 ans et moins)",
+        "day": "Friday",
+        "start": "10:00",
+        "end": "12:00"
+      },
+      {
+        "audience": "Pour les enfants (8 ans et moins)",
+        "day": "Saturday",
+        "start": "13:30",
+        "end": "16:30"
+      },
+      {
+        "audience": "Pour les enfants (8 ans et moins)",
+        "day": "Sunday",
+        "start": "13:30",
+        "end": "16:30"
+      }
+    ]
+  },
+  {
+    "url": "https://montreal.ca/lieux/complexe-aquatique-de-rosemont",
+    "title": "Complexe aquatique de Rosemont",
+    "address": "6150, 9e AvenueMontréal (Québec) H1Y 2K4",
+    "sessions": [
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Monday",
+        "start": "11:00",
+        "end": "11:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Tuesday",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Wednesday",
+        "start": "11:00",
+        "end": "11:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Thursday",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Friday",
+        "start": "11:00",
+        "end": "11:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Saturday",
+        "start": "12:30",
+        "end": "13:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Sunday",
+        "start": "12:30",
+        "end": "13:55"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Monday",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Tuesday",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Wednesday",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Thursday",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Friday",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Saturday",
+        "start": "14:00",
+        "end": "15:25"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Sunday",
+        "start": "14:00",
+        "end": "15:25"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Monday",
+        "start": "07:00",
+        "end": "11:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Tuesday",
+        "start": "10:00",
+        "end": "11:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Wednesday",
+        "start": "07:00",
+        "end": "11:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Thursday",
+        "start": "10:00",
+        "end": "11:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Friday",
+        "start": "07:00",
+        "end": "11:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Saturday",
+        "start": "15:30",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Sunday",
+        "start": "15:30",
+        "end": "16:55"
+      }
+    ]
+  }
+]
