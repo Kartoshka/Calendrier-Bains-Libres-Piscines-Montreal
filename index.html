@@ -39,23 +39,30 @@
 </head>
 
 <body>
-    <h1>Calendrier des heures de baignades libres aux piscines publiques à Montreal</h1>
+    <h1>Calendrier des heures de baignades libres aux piscines publiques de Montreal</h1>
 
     <!-- Filter Container -->
-    <div id="filters"
-        style="justify-content: center; display: flex; gap: 30px; margin-bottom: 20px; align-items: flex-start; flex-wrap: wrap;">
+    <div id="filters" style="display: flex; gap: 30px; margin-bottom: 20px; align-items: flex-start; flex-wrap: wrap;">
 
         <!-- Audience Filters -->
-        <div id="audience-filters-container">
-            <h4>Public Cible:</h4>
+        <div id="audience-filters-container" , style="justify-content: center">
+            <h3>Public Cible:</h3>
             <div id="audience-filters" style="display: flex; flex-wrap: wrap; gap: 10px;"></div>
         </div>
 
         <!-- Location Filters -->
         <div id="location-filters-container">
-            <h4>Piscine:</h4>
-            <div id="location-filters" style="display: flex; flex-wrap: wrap; gap: 10px;"></div>
+            <details>
+                <summary style="font-size: 1.2rem; /* Adjust this to your desired size */
+  font-weight: bold; /* Optional for better emphasis */">
+                    Filtrer par piscine
+                </summary>
+                <br>
+                <div id="location-filters"
+                    style="padding-left: 1.em; display: flex; flex-wrap:nowrap; flex-direction:column; gap: 10px;">
+            </details>
         </div>
+    </div>
     </div>
 
 
@@ -92,7 +99,10 @@
                 return "Filles & Femmes Seulement";
             }
             else if (lower.includes('aînées')) {
-                return "Aînées (50+)"
+                return "Aînées (50ans   +)"
+            }
+            else if (lower.includes('couloir')) {
+                return "Nage en couloir (16ans+)";
             }
             return audience; // Leave all others unchanged for now
         }
@@ -122,7 +132,6 @@
 
         function createCheckboxes(containerId, options, onChangeCallback) {
             const container = document.getElementById(containerId);
-            container.innerHTML = '';
 
             options.forEach(option => {
                 const label = document.createElement('label');
@@ -139,6 +148,28 @@
                 label.append(` ${option}`);
                 container.appendChild(label);
             });
+        }
+
+        function createBoroughSection(containerId, boroughName, options, onChangeCallback) {
+
+            const filteredOptions = options.filter(loc => { return loc.borough == boroughName; }).map(loc => loc.title.replace(' | Ville de Montréal', '').trim()).sort();
+
+            console.log(containerId);
+
+            const container = document.getElementById(containerId);
+            let div = document.createElement('div');
+            div.id = boroughName + "-section";
+
+            let details = document.createElement('details');
+            details.id = div.id + "-details";
+            let summary = document.createElement('summary');
+            summary.textContent = boroughName;
+            details.appendChild(summary);
+
+            div.appendChild(details);
+            container.appendChild(div);
+
+            createCheckboxes(details.id, filteredOptions, onChangeCallback)
         }
 
         function getCheckedValues(containerId) {
@@ -183,7 +214,6 @@
             .then(results => {
                 // Combine all JSON data into one array
                 fullData = results.flat();
-                console.log(fullData);
 
                 // Populate the calendar
                 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -271,8 +301,11 @@
                 const audiences = extractAudienceTypes(fullData);
                 const locations = Array.from(new Set(fullData.map(loc => loc.title.replace(' | Ville de Montréal', '').trim()))).sort();
 
+
+                const boroughs = Array.from(new Set(fullData.map(loc => loc.borough))).sort();
+
                 createCheckboxes('audience-filters', audiences, applyFilters);
-                createCheckboxes('location-filters', locations, applyFilters);
+                boroughs.forEach(b => { createBoroughSection("location-filters", b, fullData, applyFilters) });
 
                 // Restore saved selection from cookies
                 restoreSelections('audience-filters', 'audienceSelections');

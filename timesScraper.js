@@ -1,20 +1,35 @@
 const puppeteer = require('puppeteer');
 
-// console.log(urls)
 (async () => {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
+    const browser = await puppeteer.launch({ headless: true, timeout: 10000 });
     const allResults = [];
-    const urls = [
-        'https://montreal.ca/lieux/piscine-saint-roch',
-        'https://montreal.ca/lieux/piscine-joseph-charbonneau',
-        'https://montreal.ca/lieux/piscine-pere-marquette',
-        'https://montreal.ca/lieux/complexe-aquatique-de-rosemont'
-    ]
+    const listURL = "https://montreal.ca/lieux?mtl_content.lieux.installation.code=PISI";
 
+    console.log(`parsing ${listURL} for list of pools`);
+    const page = await browser.newPage();
+    await page.goto(listURL, { waitUntil: 'networkidle2' });
+    await page.waitForSelector('ul.list-group.list-group-teaser');
+
+    let urls = await page.evaluate(() => {
+        const urlItems = Array.from(document.getElementsByClassName("list-group-item-action d-block p-2"));
+        if (!urlItems) { console.log("did not find any list items"); return {} }
+
+        let retrievedURLS = [];
+
+        urlItems.forEach(listHrefDiv => {
+            retrievedURLS.push(listHrefDiv.href);
+        });
+
+        return retrievedURLS;
+    });
+
+    let currentPoolParsed = 0;
+    let numPools = urls.length;
     for (const url of urls) {
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: 'networkidle0' });
+
+        const borough = document.querySelector('.quick-links-label + ul li a')?.textContent.trim();
 
         const sessions = await page.evaluate((url) => {
             let parseSwimSchedulebPage = function (webDocument) {
@@ -104,18 +119,19 @@ const puppeteer = require('puppeteer');
                 url: location.href,
                 title: cleanTitle,
                 address: address,
+                borough: borough,
                 sessions: data
             };
         });
 
         allResults.push(sessions);
-        console.log(`✅ Parsed: ${sessions.title}`);
+        console.log(`✅ Parsed: ${sessions.title} ${++currentPoolParsed}/${numPools}`);
         await page.close();
     }
+    await browser.close();
 
     const fs = require('fs');
     fs.writeFileSync('swim_sessions_auto.json', JSON.stringify(allResults, null, 2));
     console.log('✅ Swim sessions saved to swim_sessions_auto.json');
 
-    await browser.close();
 })();
