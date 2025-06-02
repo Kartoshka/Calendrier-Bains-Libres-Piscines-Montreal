@@ -29,8 +29,6 @@ const puppeteer = require('puppeteer');
         const page = await browser.newPage();
         await page.goto(url, { waitUntil: 'networkidle0' });
 
-        const borough = document.querySelector('.quick-links-label + ul li a')?.textContent.trim();
-
         const sessions = await page.evaluate((url) => {
             let parseSwimSchedulebPage = function (webDocument) {
                 // Helper function to parse time strings like '18 h 30' or '14 h 00'
@@ -113,6 +111,7 @@ const puppeteer = require('puppeteer');
             const address = addressEl ? addressEl.textContent.replace(/\r?\n|\r/g, ' ') : "N/A";
 
             const cleanTitle = document.title.replace(' | Ville de Montréal', '').trim();
+            const borough = document.querySelector('.quick-links-label + ul li a')?.textContent.trim();
 
             const data = parseSwimSchedulebPage(document);
             return {
