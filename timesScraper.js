@@ -30,6 +30,13 @@ const puppeteer = require('puppeteer');
         await page.goto(url, { waitUntil: 'networkidle0' });
 
         const sessions = await page.evaluate((url) => {
+            class ValueSet {
+                constructor() { this.map = new Map(); }
+                add(value) { this.map.set(JSON.stringify(value), value); }
+                has(value) { return this.map.has(JSON.stringify(value)); }
+                values() { return [...this.map.values()]; }
+            }
+
             let parseSwimSchedulebPage = function (webDocument) {
                 // Helper function to parse time strings like '18 h 30' or '14 h 00'
                 function parseTime(timeStr) {
@@ -55,7 +62,7 @@ const puppeteer = require('puppeteer');
 
                 // Select all headings that denote the audience category
                 const headings = Array.from(webDocument.querySelectorAll('h3'));
-                const sessions = new Set();
+                const sessionsSet = new ValueSet();
 
                 headings.forEach(heading => {
                     const audience = heading.textContent.trim();
@@ -90,7 +97,7 @@ const puppeteer = require('puppeteer');
                                 const endTime = parseTime(endStr);
 
                                 if (startTime && endTime) {
-                                    sessions.add({
+                                    sessionsSet.add({
                                         audience,
                                         day: dayFr,
                                         start: `${String(startTime.hours).padStart(2, '0')}:${String(startTime.minutes).padStart(2, '0')}`,
@@ -102,7 +109,7 @@ const puppeteer = require('puppeteer');
                     }
                 });
 
-                return Array.from(sessions);
+                return Array.from(sessionsSet.values());
             };
 
             const allListTitleElements = Array.from(document.getElementsByClassName("list-item-icon-label"));

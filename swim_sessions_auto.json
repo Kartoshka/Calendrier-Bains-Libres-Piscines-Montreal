@@ -8,66 +8,6 @@
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
-        "start": "15:00",
-        "end": "20:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "14:00",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "09:00",
-        "end": "12:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "14:00",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "09:00",
-        "end": "12:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Lundi",
-        "start": "20:00",
-        "end": "22:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Mardi",
-        "start": "13:00",
-        "end": "14:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Mercredi",
-        "start": "13:00",
-        "end": "14:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Jeudi",
-        "start": "13:00",
-        "end": "14:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Vendredi",
-        "start": "13:00",
-        "end": "14:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
         "start": "17:00",
         "end": "20:00"
       },
@@ -136,6 +76,66 @@
         "day": "Samedi",
         "start": "16:00",
         "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "12:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "15:00",
+        "end": "20:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "15:00",
+        "end": "20:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "15:00",
+        "end": "20:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "10:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "13:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "12:00",
+        "end": "16:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Mardi",
+        "start": "20:00",
+        "end": "21:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Mercredi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Jeudi",
+        "start": "12:00",
+        "end": "13:00"
       }
     ]
   },
@@ -145,90 +145,6 @@
     "address": "1875, avenue MorganMontréal (Québec) H1V 2R1",
     "borough": "Mercier–Hochelaga-Maisonneuve",
     "sessions": [
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
-        "start": "16:00",
-        "end": "19:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "09:00",
-        "end": "10:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "16:00",
-        "end": "19:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "09:00",
-        "end": "10:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "16:00",
-        "end": "19:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "13:00",
-        "end": "14:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Dimanche",
-        "start": "13:00",
-        "end": "14:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Lundi",
-        "start": "14:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mardi",
-        "start": "11:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mercredi",
-        "start": "14:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Jeudi",
-        "start": "11:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Vendredi",
-        "start": "14:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Samedi",
-        "start": "15:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Dimanche",
-        "start": "15:00",
-        "end": "15:55"
-      },
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
@@ -446,6 +362,114 @@
         "day": "Dimanche",
         "start": "13:00",
         "end": "16:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Lundi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Mardi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Mercredi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Jeudi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Vendredi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Samedi",
+        "start": "15:30",
+        "end": "16:30"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Dimanche",
+        "start": "15:30",
+        "end": "16:30"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Mardi",
+        "start": "17:00",
+        "end": "18:00"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Mercredi",
+        "start": "17:00",
+        "end": "18:00"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Jeudi",
+        "start": "17:00",
+        "end": "18:00"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Vendredi",
+        "start": "17:00",
+        "end": "18:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "11:30",
+        "end": "15:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "11:30",
+        "end": "15:30"
       }
     ]
   },
@@ -458,128 +482,128 @@
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
-        "start": "11:00",
-        "end": "11:55"
+        "start": "10:00",
+        "end": "10:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Mardi",
-        "start": "16:00",
-        "end": "16:55"
+        "start": "12:30",
+        "end": "14:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Mercredi",
-        "start": "11:00",
-        "end": "11:55"
+        "start": "10:00",
+        "end": "10:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Jeudi",
-        "start": "16:00",
-        "end": "16:55"
+        "start": "12:30",
+        "end": "14:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Vendredi",
-        "start": "11:00",
-        "end": "11:55"
+        "start": "10:00",
+        "end": "10:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Samedi",
-        "start": "12:30",
-        "end": "13:55"
+        "start": "08:00",
+        "end": "09:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Dimanche",
         "start": "12:30",
-        "end": "13:55"
+        "end": "14:25"
       },
       {
-        "audience": "Pour les adultes (16 ans et plus)",
+        "audience": "Pour les adultes",
         "day": "Lundi",
-        "start": "13:00",
-        "end": "15:55"
+        "start": "15:00",
+        "end": "16:55"
       },
       {
-        "audience": "Pour les adultes (16 ans et plus)",
+        "audience": "Pour les adultes",
         "day": "Mardi",
-        "start": "13:00",
-        "end": "15:55"
+        "start": "15:00",
+        "end": "16:55"
       },
       {
-        "audience": "Pour les adultes (16 ans et plus)",
+        "audience": "Pour les adultes",
         "day": "Mercredi",
-        "start": "13:00",
-        "end": "15:55"
+        "start": "15:00",
+        "end": "16:55"
       },
       {
-        "audience": "Pour les adultes (16 ans et plus)",
+        "audience": "Pour les adultes",
         "day": "Jeudi",
-        "start": "13:00",
-        "end": "15:55"
+        "start": "15:00",
+        "end": "16:55"
       },
       {
-        "audience": "Pour les adultes (16 ans et plus)",
+        "audience": "Pour les adultes",
         "day": "Vendredi",
-        "start": "13:00",
-        "end": "15:55"
+        "start": "15:00",
+        "end": "16:55"
       },
       {
-        "audience": "Pour les adultes (16 ans et plus)",
+        "audience": "Pour les adultes",
         "day": "Samedi",
-        "start": "14:00",
-        "end": "15:25"
+        "start": "15:00",
+        "end": "16:55"
       },
       {
-        "audience": "Pour les adultes (16 ans et plus)",
+        "audience": "Pour les adultes",
         "day": "Dimanche",
-        "start": "14:00",
-        "end": "15:25"
+        "start": "15:00",
+        "end": "16:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Lundi",
         "start": "07:00",
-        "end": "11:55"
+        "end": "09:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Mardi",
         "start": "10:00",
-        "end": "11:55"
+        "end": "14:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Mercredi",
         "start": "07:00",
-        "end": "11:55"
+        "end": "09:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Jeudi",
         "start": "10:00",
-        "end": "11:55"
+        "end": "14:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Vendredi",
         "start": "07:00",
-        "end": "11:55"
+        "end": "09:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Samedi",
-        "start": "15:30",
-        "end": "16:55"
+        "start": "10:00",
+        "end": "11:25"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Dimanche",
-        "start": "15:30",
-        "end": "16:55"
+        "start": "08:00",
+        "end": "11:25"
       }
     ]
   },
@@ -606,78 +630,6 @@
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
-        "start": "08:30",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "14:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "13:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "14:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "08:30",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "13:00",
-        "end": "16:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Dimanche",
-        "start": "13:00",
-        "end": "16:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Lundi",
-        "start": "07:00",
-        "end": "07:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mardi",
-        "start": "13:00",
-        "end": "13:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mercredi",
-        "start": "12:00",
-        "end": "12:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Jeudi",
-        "start": "13:00",
-        "end": "13:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Vendredi",
-        "start": "07:00",
-        "end": "07:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
         "start": "13:00",
         "end": "15:55"
       },
@@ -746,6 +698,84 @@
         "day": "Vendredi",
         "start": "07:00",
         "end": "07:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "13:00",
+        "end": "19:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "13:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "13:00",
+        "end": "19:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "13:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "13:00",
+        "end": "19:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "12:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "12:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Lundi",
+        "start": "07:30",
+        "end": "08:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mardi",
+        "start": "12:00",
+        "end": "12:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Jeudi",
+        "start": "12:00",
+        "end": "12:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Vendredi",
+        "start": "07:30",
+        "end": "08:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Samedi",
+        "start": "17:00",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Dimanche",
+        "start": "17:00",
+        "end": "17:55"
       }
     ]
   },
@@ -941,12 +971,6 @@
     "borough": "Le Plateau-Mont-Royal",
     "sessions": [
       {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "13:30",
-        "end": "16:30"
-      },
-      {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Lundi",
         "start": "19:30",
@@ -999,6 +1023,72 @@
         "day": "Dimanche",
         "start": "13:30",
         "end": "15:00"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Lundi",
+        "start": "19:30",
+        "end": "21:30"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mardi",
+        "start": "14:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mercredi",
+        "start": "13:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Jeudi",
+        "start": "14:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Vendredi",
+        "start": "13:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Dimanche",
+        "start": "15:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "16:30",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "16:30",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "16:30",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "13:30",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "13:30",
+        "end": "14:55"
       }
     ]
   },
@@ -1054,8 +1144,8 @@
       {
         "audience": "Pour toutes et tous",
         "day": "Mardi",
-        "start": "13:30",
-        "end": "15:55"
+        "start": "19:30",
+        "end": "20:55"
       },
       {
         "audience": "Pour toutes et tous",
@@ -1078,14 +1168,56 @@
       {
         "audience": "Pour toutes et tous",
         "day": "Samedi",
-        "start": "13:00",
-        "end": "14:55"
+        "start": "13:30",
+        "end": "14:25"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Dimanche",
-        "start": "13:00",
-        "end": "14:55"
+        "start": "12:30",
+        "end": "13:55"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Lundi",
+        "start": "13:30",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Mardi",
+        "start": "13:30",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Mercredi",
+        "start": "13:30",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Jeudi",
+        "start": "13:30",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Vendredi",
+        "start": "13:30",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Samedi",
+        "start": "14:30",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Dimanche",
+        "start": "14:00",
+        "end": "15:55"
       },
       {
         "audience": "Pour la famille",
@@ -1100,22 +1232,28 @@
         "end": "16:55"
       },
       {
-        "audience": "Pour les enfants (6 ans et moins)",
-        "day": "Lundi",
-        "start": "09:30",
-        "end": "11:30"
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "13:30",
+        "end": "15:55"
       },
       {
-        "audience": "Pour les enfants (6 ans et moins)",
-        "day": "Mercredi",
-        "start": "09:30",
-        "end": "11:30"
-      },
-      {
-        "audience": "Pour les enfants (6 ans et moins)",
+        "audience": "Pour toutes et tous",
         "day": "Vendredi",
-        "start": "09:30",
-        "end": "11:30"
+        "start": "13:30",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "13:00",
+        "end": "14:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "13:00",
+        "end": "14:55"
       }
     ]
   },
@@ -1235,28 +1373,10 @@
         "end": "21:45"
       },
       {
-        "audience": "Pour la nage en couloir (18 ans et plus)",
-        "day": "Vendredi",
-        "start": "20:30",
-        "end": "21:45"
-      },
-      {
         "audience": "Pour la famille",
         "day": "Vendredi",
         "start": "18:30",
         "end": "20:30"
-      },
-      {
-        "audience": "Pour la famille",
-        "day": "Samedi",
-        "start": "13:30",
-        "end": "16:00"
-      },
-      {
-        "audience": "Pour la famille",
-        "day": "Dimanche",
-        "start": "13:30",
-        "end": "16:00"
       },
       {
         "audience": "Pour la nage en couloir (18 ans et plus)",
@@ -1269,24 +1389,6 @@
         "day": "Mercredi",
         "start": "20:30",
         "end": "21:45"
-      },
-      {
-        "audience": "Pour la nage en couloir (18 ans et plus)",
-        "day": "Jeudi",
-        "start": "20:30",
-        "end": "21:45"
-      },
-      {
-        "audience": "Pour la nage en couloir (18 ans et plus)",
-        "day": "Vendredi",
-        "start": "20:30",
-        "end": "21:45"
-      },
-      {
-        "audience": "Pour la nage en couloir (18 ans et plus)",
-        "day": "Dimanche",
-        "start": "18:30",
-        "end": "20:45"
       }
     ]
   },
@@ -1306,90 +1408,6 @@
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
-        "start": "09:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "18:00",
-        "end": "19:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "09:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "18:00",
-        "end": "19:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "09:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "13:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Dimanche",
-        "start": "09:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Lundi",
-        "start": "20:30",
-        "end": "21:25"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mardi",
-        "start": "17:00",
-        "end": "17:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mercredi",
-        "start": "20:30",
-        "end": "21:25"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Jeudi",
-        "start": "17:00",
-        "end": "17:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Vendredi",
-        "start": "20:30",
-        "end": "21:25"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Samedi",
-        "start": "16:00",
-        "end": "16:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Dimanche",
-        "start": "12:00",
-        "end": "12:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
         "start": "18:30",
         "end": "20:25"
       },
@@ -1470,6 +1488,78 @@
         "day": "Dimanche",
         "start": "12:00",
         "end": "12:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Lundi",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mardi",
+        "start": "20:00",
+        "end": "20:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mercredi",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Jeudi",
+        "start": "20:00",
+        "end": "20:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Vendredi",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Dimanche",
+        "start": "16:00",
+        "end": "16:55"
       }
     ]
   },
@@ -1489,60 +1579,66 @@
       {
         "audience": "Pour les adultes",
         "day": "Lundi",
-        "start": "20:30",
-        "end": "22:30"
+        "start": "18:30",
+        "end": "20:00"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mardi",
+        "start": "18:30",
+        "end": "20:00"
       },
       {
         "audience": "Pour les adultes",
         "day": "Mercredi",
-        "start": "20:30",
-        "end": "22:30"
+        "start": "18:30",
+        "end": "20:00"
       },
       {
         "audience": "Pour les adultes",
-        "day": "Vendredi",
-        "start": "20:30",
-        "end": "22:30"
-      },
-      {
-        "audience": "Pour la famille",
-        "day": "Samedi",
-        "start": "14:00",
-        "end": "17:30"
-      },
-      {
-        "audience": "Pour la famille",
-        "day": "Dimanche",
-        "start": "14:00",
-        "end": "16:45"
+        "day": "Jeudi",
+        "start": "18:30",
+        "end": "20:00"
       },
       {
         "audience": "Pour la famille",
         "day": "Lundi",
         "start": "13:00",
-        "end": "17:00"
+        "end": "16:00"
       },
       {
         "audience": "Pour la famille",
         "day": "Mardi",
         "start": "13:00",
-        "end": "17:00"
+        "end": "16:00"
       },
       {
         "audience": "Pour la famille",
         "day": "Mercredi",
         "start": "13:00",
-        "end": "17:00"
+        "end": "16:00"
       },
       {
         "audience": "Pour la famille",
         "day": "Jeudi",
         "start": "13:00",
-        "end": "17:00"
+        "end": "16:00"
       },
       {
         "audience": "Pour la famille",
         "day": "Vendredi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Samedi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Dimanche",
         "start": "13:00",
         "end": "17:00"
       }
@@ -1580,65 +1676,35 @@
       },
       {
         "audience": "Pour toutes et tous",
-        "day": "Lundi",
-        "start": "13:00",
-        "end": "16:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
         "day": "Mardi",
         "start": "13:00",
-        "end": "15:00"
+        "end": "15:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Mercredi",
         "start": "15:00",
-        "end": "17:30"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "13:00",
-        "end": "15:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "15:00",
-        "end": "18:30"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "14:30",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "16:00",
-        "end": "17:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "15:00",
-        "end": "17:25"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "16:00",
-        "end": "17:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "14:30",
         "end": "16:55"
       },
       {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "15:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
         "audience": "Pour les adultes",
         "day": "Mardi",
         "start": "18:00",
@@ -1664,63 +1730,21 @@
       },
       {
         "audience": "Pour les adultes",
-        "day": "Lundi",
-        "start": "16:00",
-        "end": "17:30"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mardi",
-        "start": "18:00",
-        "end": "19:00"
-      },
-      {
-        "audience": "Pour les adultes",
         "day": "Mercredi",
-        "start": "17:30",
-        "end": "19:00"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Jeudi",
         "start": "18:00",
-        "end": "19:00"
+        "end": "18:55"
       },
       {
         "audience": "Pour les adultes",
         "day": "Vendredi",
-        "start": "18:30",
-        "end": "20:00"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Samedi",
-        "start": "17:00",
-        "end": "18:00"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mardi",
-        "start": "18:00",
-        "end": "18:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mercredi",
-        "start": "14:00",
-        "end": "14:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Jeudi",
         "start": "18:00",
         "end": "18:55"
       },
       {
         "audience": "Pour les adultes",
         "day": "Samedi",
-        "start": "17:00",
-        "end": "17:55"
+        "start": "16:00",
+        "end": "16:55"
       },
       {
         "audience": "Pour les personnes aînées (50 ans et plus)",
@@ -1733,6 +1757,18 @@
         "day": "Jeudi",
         "start": "15:00",
         "end": "15:55"
+      },
+      {
+        "audience": "Pour les personnes aînées (50 ans et plus)",
+        "day": "Mardi",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les personnes aînées (50 ans et plus)",
+        "day": "Jeudi",
+        "start": "16:00",
+        "end": "16:55"
       }
     ]
   },
@@ -1742,120 +1778,6 @@
     "address": "955, rue Marie-Anne EstMontréal (Québec) H2J 4G2",
     "borough": "Le Plateau-Mont-Royal",
     "sessions": [
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
-        "start": "14:15",
-        "end": "16:25"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "09:45",
-        "end": "10:45"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "14:15",
-        "end": "16:25"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "14:15",
-        "end": "16:25"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "14:30",
-        "end": "16:30"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Dimanche",
-        "start": "13:30",
-        "end": "15:00"
-      },
-      {
-        "audience": "Pour les adultes (16 ans et plus)",
-        "day": "Lundi",
-        "start": "16:25",
-        "end": "17:25"
-      },
-      {
-        "audience": "Pour les adultes (16 ans et plus)",
-        "day": "Mardi",
-        "start": "13:15",
-        "end": "14:15"
-      },
-      {
-        "audience": "Pour les adultes (16 ans et plus)",
-        "day": "Mercredi",
-        "start": "13:15",
-        "end": "14:15"
-      },
-      {
-        "audience": "Pour les adultes (16 ans et plus)",
-        "day": "Jeudi",
-        "start": "13:15",
-        "end": "14:15"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Lundi",
-        "start": "18:00",
-        "end": "19:25"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Mardi",
-        "start": "12:00",
-        "end": "13:10"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Mercredi",
-        "start": "12:00",
-        "end": "13:10"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Jeudi",
-        "start": "20:30",
-        "end": "21:30"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Samedi",
-        "start": "13:30",
-        "end": "14:30"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Vendredi",
-        "start": "12:00",
-        "end": "13:25"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Samedi",
-        "start": "12:00",
-        "end": "13:25"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "13:30",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "13:30",
-        "end": "16:00"
-      },
       {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Lundi",
@@ -1933,6 +1855,42 @@
         "day": "Dimanche",
         "start": "13:30",
         "end": "15:00"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Mercredi",
+        "start": "14:00",
+        "end": "15:00"
+      },
+      {
+        "audience": "Pour la nage en couloir (16 ans et plus)",
+        "day": "Mercredi",
+        "start": "15:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour la nage en couloir (16 ans et plus)",
+        "day": "Dimanche",
+        "start": "12:30",
+        "end": "13:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "16:30",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "16:30",
+        "end": "17:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "13:30",
+        "end": "15:45"
       }
     ]
   },
@@ -1945,44 +1903,50 @@
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
-        "start": "19:30",
-        "end": "20:30"
+        "start": "13:00",
+        "end": "14:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "13:00",
+        "end": "14:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Mercredi",
-        "start": "19:30",
-        "end": "20:30"
+        "start": "13:00",
+        "end": "14:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Jeudi",
-        "start": "19:30",
-        "end": "20:30"
+        "start": "13:00",
+        "end": "14:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Vendredi",
-        "start": "19:30",
-        "end": "20:30"
+        "start": "13:00",
+        "end": "14:55"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Samedi",
         "start": "13:30",
-        "end": "15:30"
+        "end": "15:25"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Dimanche",
         "start": "13:30",
-        "end": "15:30"
+        "end": "15:25"
       },
       {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Lundi",
         "start": "15:00",
-        "end": "16:25"
+        "end": "16:30"
       },
       {
         "audience": "Pour les adultes (16 ans et plus)",
@@ -2012,13 +1976,13 @@
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Samedi",
         "start": "15:30",
-        "end": "17:00"
+        "end": "16:55"
       },
       {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Dimanche",
         "start": "15:30",
-        "end": "17:00"
+        "end": "16:55"
       },
       {
         "audience": "Pour les enfants (8 ans et moins)",
@@ -2054,13 +2018,13 @@
         "audience": "Pour les enfants (8 ans et moins)",
         "day": "Samedi",
         "start": "13:30",
-        "end": "16:30"
+        "end": "16:55"
       },
       {
         "audience": "Pour les enfants (8 ans et moins)",
         "day": "Dimanche",
         "start": "13:30",
-        "end": "16:30"
+        "end": "16:55"
       }
     ]
   },
@@ -2079,90 +2043,6 @@
       {
         "audience": "Pour toutes et tous",
         "day": "Mardi",
-        "start": "09:00",
-        "end": "10:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "10:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "09:00",
-        "end": "10:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "10:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "09:00",
-        "end": "10:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Dimanche",
-        "start": "13:00",
-        "end": "14:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Lundi",
-        "start": "12:00",
-        "end": "12:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mardi",
-        "start": "13:00",
-        "end": "13:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mercredi",
-        "start": "12:00",
-        "end": "12:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Jeudi",
-        "start": "13:00",
-        "end": "13:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Vendredi",
-        "start": "12:00",
-        "end": "12:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Samedi",
-        "start": "12:00",
-        "end": "12:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Dimanche",
-        "start": "15:00",
-        "end": "15:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
-        "start": "10:00",
-        "end": "11:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
         "start": "14:00",
         "end": "15:55"
       },
@@ -2237,6 +2117,84 @@
         "day": "Dimanche",
         "start": "15:00",
         "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "13:00",
+        "end": "15:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "13:00",
+        "end": "13:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "13:00",
+        "end": "13:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Lundi",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mardi",
+        "start": "12:00",
+        "end": "12:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mercredi",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Jeudi",
+        "start": "12:00",
+        "end": "12:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Vendredi",
+        "start": "16:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Dimanche",
+        "start": "12:00",
+        "end": "12:55"
       }
     ]
   },
@@ -2250,96 +2208,102 @@
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Lundi",
         "start": "11:00",
-        "end": "13:00"
+        "end": "13:30"
       },
       {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Mardi",
         "start": "11:00",
-        "end": "13:00"
+        "end": "13:30"
       },
       {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Mercredi",
         "start": "11:00",
-        "end": "13:00"
+        "end": "13:30"
       },
       {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Jeudi",
         "start": "11:00",
-        "end": "13:00"
-      },
-      {
-        "audience": "Pour les adultes (16 ans et plus)",
-        "day": "Vendredi",
-        "start": "11:00",
-        "end": "13:00"
+        "end": "13:30"
       },
       {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Samedi",
-        "start": "12:00",
-        "end": "14:00"
-      },
-      {
-        "audience": "Pour les adultes (16 ans et plus)",
-        "day": "Dimanche",
-        "start": "11:00",
-        "end": "13:00"
+        "start": "10:00",
+        "end": "11:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
-        "start": "13:00",
+        "start": "13:30",
         "end": "16:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Mardi",
-        "start": "13:00",
+        "start": "13:30",
         "end": "16:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Mercredi",
-        "start": "13:00",
-        "end": "16:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "13:00",
-        "end": "17:00"
+        "start": "16:30",
+        "end": "19:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Vendredi",
-        "start": "13:00",
-        "end": "16:00"
+        "start": "16:30",
+        "end": "19:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Samedi",
-        "start": "10:00",
-        "end": "12:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Dimanche",
-        "start": "09:00",
-        "end": "11:00"
+        "start": "11:00",
+        "end": "14:00"
       },
       {
         "audience": "Pour la communauté transgenre",
         "day": "Jeudi",
-        "start": "18:00",
-        "end": "20:00"
+        "start": "17:00",
+        "end": "19:00"
       },
       {
         "audience": "Pour la communauté transgenre",
         "day": "Samedi",
         "start": "15:00",
+        "end": "16:00"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Mardi",
+        "start": "17:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Vendredi",
+        "start": "11:00",
+        "end": "13:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "13:30",
+        "end": "16:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "13:30",
+        "end": "16:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "13:30",
         "end": "16:00"
       }
     ]
@@ -2417,30 +2381,6 @@
         "end": "18:00"
       },
       {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "17:00",
-        "end": "19:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "16:00",
-        "end": "19:25"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "15:30",
-        "end": "17:55"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Dimanche",
-        "start": "14:30",
-        "end": "17:55"
-      },
-      {
         "audience": "Pour les adultes",
         "day": "Mercredi",
         "start": "16:00",
@@ -2493,24 +2433,6 @@
         "day": "Dimanche",
         "start": "18:00",
         "end": "19:30"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Mercredi",
-        "start": "16:00",
-        "end": "16:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Vendredi",
-        "start": "19:30",
-        "end": "20:55"
-      },
-      {
-        "audience": "Pour les adultes",
-        "day": "Dimanche",
-        "start": "18:00",
-        "end": "19:25"
       }
     ]
   },
@@ -2527,66 +2449,6 @@
     "address": "1055, rue d'HiberniaMontréal (Québec) H3K 2V3",
     "borough": "Le Sud-Ouest",
     "sessions": [
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
-        "start": "14:00",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "18:00",
-        "end": "20:30"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "14:00",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "14:00",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "14:00",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Lundi",
-        "start": "12:00",
-        "end": "13:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Mardi",
-        "start": "20:30",
-        "end": "22:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Mercredi",
-        "start": "11:00",
-        "end": "13:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Jeudi",
-        "start": "12:00",
-        "end": "14:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Vendredi",
-        "start": "12:00",
-        "end": "14:00"
-      },
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
@@ -2664,6 +2526,84 @@
         "day": "Samedi",
         "start": "13:00",
         "end": "14:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "14:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "14:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "14:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Mardi",
+        "start": "17:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Vendredi",
+        "start": "17:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Lundi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Mardi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Mercredi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Jeudi",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Vendredi",
+        "start": "12:00",
+        "end": "13:00"
       }
     ]
   },
@@ -2680,66 +2620,6 @@
     "address": "4055, rue Saint-JacquesMontréal (Québec) H4C 1J3",
     "borough": "Le Sud-Ouest",
     "sessions": [
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
-        "start": "17:00",
-        "end": "20:30"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "17:00",
-        "end": "20:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "17:00",
-        "end": "20:30"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "17:00",
-        "end": "20:30"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "17:00",
-        "end": "20:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Lundi",
-        "start": "20:30",
-        "end": "22:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Mardi",
-        "start": "20:00",
-        "end": "22:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Mercredi",
-        "start": "20:30",
-        "end": "22:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Jeudi",
-        "start": "20:30",
-        "end": "22:00"
-      },
-      {
-        "audience": "Pour les adultes (18 ans et plus)",
-        "day": "Vendredi",
-        "start": "20:00",
-        "end": "21:00"
-      },
       {
         "audience": "Pour toutes et tous",
         "day": "Mardi",
@@ -2799,6 +2679,84 @@
         "day": "Samedi",
         "start": "13:00",
         "end": "14:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "12:00",
+        "end": "13:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "12:00",
+        "end": "13:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "18:30",
+        "end": "21:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "18:30",
+        "end": "21:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "16:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "12:30",
+        "end": "17:30"
+      },
+      {
+        "audience": "Pour la famille",
+        "day": "Samedi",
+        "start": "09:00",
+        "end": "12:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Lundi",
+        "start": "21:00",
+        "end": "22:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Mercredi",
+        "start": "21:00",
+        "end": "22:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Jeudi",
+        "start": "21:00",
+        "end": "22:00"
+      },
+      {
+        "audience": "Pour les adultes (18 ans et plus)",
+        "day": "Vendredi",
+        "start": "19:00",
+        "end": "20:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "18:30",
+        "end": "21:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "16:30",
+        "end": "19:00"
       }
     ]
   },
@@ -2845,6 +2803,48 @@
         "end": "15:55"
       },
       {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "13:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "13:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "13:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "13:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "13:00",
+        "end": "16:55"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "13:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "13:00",
+        "end": "17:25"
+      },
+      {
         "audience": "Pour les adultes",
         "day": "Lundi",
         "start": "20:00",
@@ -2869,10 +2869,46 @@
         "end": "16:55"
       },
       {
+        "audience": "Pour les adultes",
+        "day": "Lundi",
+        "start": "20:30",
+        "end": "21:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Mercredi",
+        "start": "20:30",
+        "end": "21:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Vendredi",
+        "start": "20:30",
+        "end": "21:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Samedi",
+        "start": "17:30",
+        "end": "18:25"
+      },
+      {
+        "audience": "Pour les adultes",
+        "day": "Dimanche",
+        "start": "17:30",
+        "end": "18:25"
+      },
+      {
         "audience": "Pour les filles et les femmes",
         "day": "Samedi",
         "start": "14:00",
         "end": "14:55"
+      },
+      {
+        "audience": "Pour les filles et les femmes",
+        "day": "Samedi",
+        "start": "16:30",
+        "end": "17:25"
       }
     ]
   },
@@ -2882,42 +2918,6 @@
     "address": "3950, boulevard Saint-LaurentMontréal (Québec) H2W 1Y3",
     "borough": "Le Plateau-Mont-Royal",
     "sessions": [
-      {
-        "audience": "Pour les adultes (16 ans et plus)",
-        "day": "Vendredi",
-        "start": "14:00",
-        "end": "15:00"
-      },
-      {
-        "audience": "Pour les adultes (16 ans et plus)",
-        "day": "Samedi",
-        "start": "14:00",
-        "end": "15:00"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Vendredi",
-        "start": "16:00",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour la nage en couloir (16 ans et plus)",
-        "day": "Samedi",
-        "start": "16:00",
-        "end": "17:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "15:00",
-        "end": "16:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "12:00",
-        "end": "14:00"
-      },
       {
         "audience": "Pour les adultes (16 ans et plus)",
         "day": "Lundi",
@@ -2995,6 +2995,72 @@
         "day": "Dimanche",
         "start": "10:00",
         "end": "11:55"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Lundi",
+        "start": "15:25",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Mardi",
+        "start": "15:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Mercredi",
+        "start": "15:25",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Jeudi",
+        "start": "15:00",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour les adultes (16 ans et plus)",
+        "day": "Vendredi",
+        "start": "15:25",
+        "end": "16:25"
+      },
+      {
+        "audience": "Pour la nage en couloir (16 ans et plus)",
+        "day": "Jeudi",
+        "start": "19:00",
+        "end": "20:00"
+      },
+      {
+        "audience": "Pour la nage en couloir (16 ans et plus)",
+        "day": "Vendredi",
+        "start": "19:00",
+        "end": "20:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "13:30",
+        "end": "15:25"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "16:30",
+        "end": "18:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "13:30",
+        "end": "15:25"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "13:30",
+        "end": "15:55"
       }
     ]
   },
@@ -3004,6 +3070,114 @@
     "address": "10851, avenue Saint-CharlesMontréal (Québec) H2C 3H7",
     "borough": "Ahuntsic-Cartierville",
     "sessions": [
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Lundi",
+        "start": "17:00",
+        "end": "19:00"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mardi",
+        "start": "12:30",
+        "end": "15:15"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Mercredi",
+        "start": "12:30",
+        "end": "15:15"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Jeudi",
+        "start": "12:30",
+        "end": "15:15"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Vendredi",
+        "start": "12:30",
+        "end": "15:15"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Samedi",
+        "start": "11:00",
+        "end": "12:30"
+      },
+      {
+        "audience": "Pour toutes et tous",
+        "day": "Dimanche",
+        "start": "11:00",
+        "end": "12:30"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Lundi",
+        "start": "19:00",
+        "end": "20:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Mardi",
+        "start": "19:00",
+        "end": "20:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Mercredi",
+        "start": "19:00",
+        "end": "20:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Jeudi",
+        "start": "19:00",
+        "end": "20:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Vendredi",
+        "start": "19:00",
+        "end": "20:55"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Samedi",
+        "start": "10:00",
+        "end": "11:00"
+      },
+      {
+        "audience": "Pour la nage en couloir",
+        "day": "Dimanche",
+        "start": "10:00",
+        "end": "11:00"
+      },
+      {
+        "audience": "Pour les personnes aînées (50 ans et plus)",
+        "day": "Mardi",
+        "start": "15:15",
+        "end": "16:15"
+      },
+      {
+        "audience": "Pour les personnes aînées (50 ans et plus)",
+        "day": "Mercredi",
+        "start": "15:15",
+        "end": "16:15"
+      },
+      {
+        "audience": "Pour les personnes aînées (50 ans et plus)",
+        "day": "Jeudi",
+        "start": "15:15",
+        "end": "16:15"
+      },
+      {
+        "audience": "Pour les personnes aînées (50 ans et plus)",
+        "day": "Vendredi",
+        "start": "15:15",
+        "end": "16:15"
+      },
       {
         "audience": "Pour toutes et tous",
         "day": "Mardi",
@@ -3087,114 +3261,6 @@
         "day": "Vendredi",
         "start": "15:45",
         "end": "16:45"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Lundi",
-        "start": "17:00",
-        "end": "19:00"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mardi",
-        "start": "12:30",
-        "end": "15:15"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Mercredi",
-        "start": "12:30",
-        "end": "15:15"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Jeudi",
-        "start": "12:30",
-        "end": "15:15"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Vendredi",
-        "start": "12:30",
-        "end": "15:15"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Samedi",
-        "start": "11:00",
-        "end": "12:30"
-      },
-      {
-        "audience": "Pour toutes et tous",
-        "day": "Dimanche",
-        "start": "11:00",
-        "end": "12:30"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Lundi",
-        "start": "19:00",
-        "end": "20:55"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Mardi",
-        "start": "19:00",
-        "end": "20:55"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Mercredi",
-        "start": "19:00",
-        "end": "20:55"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Jeudi",
-        "start": "19:00",
-        "end": "20:55"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Vendredi",
-        "start": "19:00",
-        "end": "20:55"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Samedi",
-        "start": "10:00",
-        "end": "11:00"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Dimanche",
-        "start": "10:00",
-        "end": "11:00"
-      },
-      {
-        "audience": "Pour les personnes aînées (50 ans et plus)",
-        "day": "Mardi",
-        "start": "15:15",
-        "end": "16:15"
-      },
-      {
-        "audience": "Pour les personnes aînées (50 ans et plus)",
-        "day": "Mercredi",
-        "start": "15:15",
-        "end": "16:15"
-      },
-      {
-        "audience": "Pour les personnes aînées (50 ans et plus)",
-        "day": "Jeudi",
-        "start": "15:15",
-        "end": "16:15"
-      },
-      {
-        "audience": "Pour les personnes aînées (50 ans et plus)",
-        "day": "Vendredi",
-        "start": "15:15",
-        "end": "16:15"
       }
     ]
   },
@@ -3214,116 +3280,92 @@
       {
         "audience": "Pour la nage en couloir",
         "day": "Mardi",
-        "start": "09:45",
-        "end": "10:25"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Mercredi",
-        "start": "09:45",
-        "end": "12:00"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Jeudi",
-        "start": "17:00",
-        "end": "19:55"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Vendredi",
-        "start": "09:45",
-        "end": "12:00"
-      },
-      {
-        "audience": "Pour la nage en couloir",
-        "day": "Samedi",
-        "start": "14:00",
-        "end": "17:35"
+        "start": "18:00",
+        "end": "19:30"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Lundi",
-        "start": "06:00",
-        "end": "09:00"
+        "start": "07:00",
+        "end": "09:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Mardi",
-        "start": "07:35",
-        "end": "08:40"
+        "start": "07:00",
+        "end": "09:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Mercredi",
-        "start": "06:00",
-        "end": "08:00"
+        "start": "07:00",
+        "end": "09:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Jeudi",
-        "start": "07:35",
-        "end": "09:30"
+        "start": "07:00",
+        "end": "09:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Vendredi",
-        "start": "06:00",
-        "end": "08:00"
+        "start": "07:00",
+        "end": "09:55"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Samedi",
-        "start": "17:35",
-        "end": "21:00"
+        "start": "08:00",
+        "end": "12:00"
       },
       {
         "audience": "Pour la nage en couloir",
         "day": "Dimanche",
-        "start": "13:00",
-        "end": "18:55"
+        "start": "08:00",
+        "end": "12:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Lundi",
-        "start": "09:05",
-        "end": "10:00"
+        "start": "10:00",
+        "end": "12:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Mardi",
-        "start": "17:00",
-        "end": "18:25"
+        "start": "10:00",
+        "end": "12:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Mercredi",
-        "start": "08:05",
-        "end": "08:40"
+        "start": "10:00",
+        "end": "12:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Jeudi",
-        "start": "09:35",
-        "end": "10:25"
+        "start": "10:00",
+        "end": "12:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Vendredi",
-        "start": "08:05",
-        "end": "08:40"
+        "start": "10:00",
+        "end": "12:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Samedi",
-        "start": "17:30",
-        "end": "21:00"
+        "start": "09:00",
+        "end": "12:00"
       },
       {
         "audience": "Pour toutes et tous",
         "day": "Dimanche",
-        "start": "14:30",
-        "end": "20:15"
+        "start": "09:00",
+        "end": "12:00"
       }
     ]
   }
