@@ -55,7 +55,7 @@ const puppeteer = require('puppeteer');
 
                 // Select all headings that denote the audience category
                 const headings = Array.from(webDocument.querySelectorAll('h3'));
-                const sessions = [];
+                const sessions = new Set();
 
                 headings.forEach(heading => {
                     const audience = heading.textContent.trim();
@@ -90,7 +90,7 @@ const puppeteer = require('puppeteer');
                                 const endTime = parseTime(endStr);
 
                                 if (startTime && endTime) {
-                                    sessions.push({
+                                    sessions.add({
                                         audience,
                                         day: dayFr,
                                         start: `${String(startTime.hours).padStart(2, '0')}:${String(startTime.minutes).padStart(2, '0')}`,
@@ -102,7 +102,7 @@ const puppeteer = require('puppeteer');
                     }
                 });
 
-                return sessions;
+                return Array.from(sessions);
             };
 
             const allListTitleElements = Array.from(document.getElementsByClassName("list-item-icon-label"));
